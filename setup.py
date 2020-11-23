@@ -21,16 +21,16 @@
 # SOFTWARE.
 
 from setuptools import setup, find_packages
-import example
+import pypiexample
 
 setup(
     name='pypiexample',
-    version=example.__version__,
-    description='An example python project',
+    version=pypiexample.__version__,
+    description='An pypiexample python project',
     url='https://github.com/artipie/pypi-example',
-    author=example.__author__,
+    author=pypiexample.__author__,
     author_email='olena.gerasimova@gmail.com',
-    license=example.__licence__,
+    license=pypiexample.__licence__,
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
