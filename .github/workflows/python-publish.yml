@@ -25,4 +25,4 @@ jobs:
     - name: Build and publish
       run: |
         python setup.py sdist bdist_wheel
-        twine upload --repository-url https://central.artipie.com/olenagerasimova/pypi/my-pypi -u olenagerasimova -p abc123 dist/*
+        twine upload --repository-url https://central.artipie.com/olenagerasimova/pypi -u olenagerasimova -p abc123 dist/*
